@@ -30,23 +30,3 @@ const BookMutationType = new GraphQLObjectType({
 });
 
 module.exports = BookMutationType;
-
-
-// query {
-//     books {
-//       id
-//       name
-//       author
-//     }
-//   }
-
-//   mutation createNewBook {
-//     createBook(input: {
-//       name: "The Underground Railroad",
-//       author: "Colson Whitehead"
-//     }) {
-//       id
-//       name
-//       author
-//     }
-//   }
