@@ -1,0 +1,25 @@
+{
+  "name": "gql-react",
+  "version": "1.0.0",
+  "description": "demo app",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "graphql"
+  ],
+  "author": "asif vora",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {}
+}
